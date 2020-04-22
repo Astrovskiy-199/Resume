@@ -471,7 +471,7 @@ height: 94px;
 .perfomance {
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 470px;
     background-color:#f4cb63 ;
     display: flex;
     flex-direction: column;
@@ -480,23 +480,113 @@ height: 94px;
 }
 
 
+.perfomanceIMGHardware {
+    width: 99px;
+height: 99px;
+background-image: url('../img/perfomance-sprite.jpg');
+border-radius: 50%;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+background-position-x: -1px ;
+}
+
+.perfomanceIMGStability {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/perfomance-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -101px ;
+}
+
+.perfomanceIMGVolume {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/perfomance-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -201px ;
+}
+
+.perfomanceIMGRecovery {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/perfomance-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -301px ;
+}
+
+.perfomanceIMGLoad {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/perfomance-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -400px ;
+}
+
+.perfomanceIMGStress {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/perfomance-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -500px ;
+}
+
 
 .security {
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 470px;
     background-color:#c8db8d;
-    border-bottom: 3px solid #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
+
+.securityIMGXss {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/security-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -0px ;
+}
+
+.securityIMGSocial {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/security-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -100px ;
+}
+
+.securityIMGDos {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/security-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -200px ;
+}
+
+.securityIMGSQL {
+    width: 99px;
+    height: 99px;
+    background-image: url('../img/security-sprite.jpg');
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-position-x: -300px ;
+}
+
 .manual {
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 470px;
     background-color:#96c4cc;  
     display: flex;
     flex-direction: column;
@@ -505,18 +595,19 @@ height: 94px;
 
 }
 
-.ManualTypesMainBlock {
-    margin-top: 40px;
-    width: 100%;
+.TypesMainBlock {
+    margin-top: 90px;
+    width: 80%;
+    height: 350px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.ManualTypesBlocks {
-    width: 150px;
-    height: 400px;
+.TypesBlocks {
+   width: 130px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -527,7 +618,7 @@ height: 94px;
 .ManualImgAgile {
 width: 100px;
 height: 100px;
-background-image: url('../img/manual-sprite.png');
+background-image: url('../img/manual-sprite.jpg');
 border-radius: 50%;
 box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
@@ -535,7 +626,7 @@ box-shadow: 0 0 20px rgba(0,0,0,0.5);
 .ManualImgDocumentation {
     width: 100px;
 height: 100px;
-background-image: url('../img/manual-sprite.png');
+background-image: url('../img/manual-sprite.jpg');
 border-radius: 50%;
 box-shadow: 0 0 20px rgba(0,0,0,0.5);
 background-position-x: -100px;
@@ -544,7 +635,7 @@ background-position-x: -100px;
 .ManualImgCases {
     width: 100px;
 height: 100px;
-background-image: url('../img/manual-sprite.png');
+background-image: url('../img/manual-sprite.jpg');
 border-radius: 50%;
 box-shadow: 0 0 20px rgba(0,0,0,0.5);
 background-position-x: -200px;
@@ -554,7 +645,7 @@ background-position-x: -200px;
 .ManualImgCommunication {
     width: 100px;
     height: 100px;
-    background-image: url('../img/manual-sprite.png');
+    background-image: url('../img/manual-sprite.jpg');
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     background-position-x: -300px;
@@ -563,7 +654,7 @@ background-position-x: -200px;
 .ManualImgBugs {
     width: 100px;
     height: 100px;
-    background-image: url('../img/manual-sprite.png');
+    background-image: url('../img/manual-sprite.jpg');
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     background-position-x: -400px;
@@ -572,7 +663,7 @@ background-position-x: -200px;
 .ManualImgReport {
     width: 100px;
     height: 100px;
-    background-image: url('../img/manual-sprite.png');
+    background-image: url('../img/manual-sprite.jpg');
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     background-position-x: -499px;
@@ -581,19 +672,19 @@ background-position-x: -200px;
 .ManualImgHardCore {
     width: 100px;
     height: 100px;
-    background-image: url('../img/manual-sprite.png');
+    background-image: url('../img/manual-sprite.jpg');
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     background-position-x: -600px;
                                 }  
                                 
-.ManualImgHover:hover {
+.ImgHover:hover {
 transform: rotate(45deg);
 transition: 1s;
 
 }
 
-.ManualBlockDescription {
+.BlockDescription {
     margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
@@ -605,7 +696,7 @@ transition: 1s;
 .python {
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 470px;
     background-color:#ffe873 ;
     display: flex;
     flex-direction: column;
@@ -616,7 +707,7 @@ transition: 1s;
 .Postman {
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 470px;
     background-color:#E6FFFC;
     display: flex;
     flex-direction: column;
@@ -754,10 +845,9 @@ justify-content: space-around;
 
 .ImgQA {
 position: absolute;
-width: 100%;
 margin-top: -100px;
 margin-left: 30px;
-width: 180px;
+width: 179px;
     height: 180px;
 background-image: url(../img/logo-sprite.png);
 background-repeat: no-repeat;

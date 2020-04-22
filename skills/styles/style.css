@@ -484,7 +484,7 @@ a:hover {
 .perfomance {
   margin-top: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   background-color: #f4cb63;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -500,12 +500,65 @@ a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
+.perfomanceIMGHardware {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -1px; }
+
+.perfomanceIMGStability {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -101px; }
+
+.perfomanceIMGVolume {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -201px; }
+
+.perfomanceIMGRecovery {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -301px; }
+
+.perfomanceIMGLoad {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -400px; }
+
+.perfomanceIMGStress {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/perfomance-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -500px; }
+
 .security {
   margin-top: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   background-color: #c8db8d;
-  border-bottom: 3px solid #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,10 +573,46 @@ a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
+.securityIMGXss {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/security-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: 0px; }
+
+.securityIMGSocial {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/security-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -100px; }
+
+.securityIMGDos {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/security-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -200px; }
+
+.securityIMGSQL {
+  width: 99px;
+  height: 99px;
+  background-image: url("../img/security-sprite.jpg");
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position-x: -300px; }
+
 .manual {
   margin-top: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   background-color: #96c4cc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,9 +628,10 @@ a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
-.ManualTypesMainBlock {
-  margin-top: 40px;
-  width: 100%;
+.TypesMainBlock {
+  margin-top: 90px;
+  width: 80%;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,9 +645,9 @@ a:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-.ManualTypesBlocks {
-  width: 150px;
-  height: 400px;
+.TypesBlocks {
+  width: 130px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,7 +665,7 @@ a:hover {
 .ManualImgAgile {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
@@ -583,7 +673,7 @@ a:hover {
 .ManualImgDocumentation {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -592,7 +682,7 @@ a:hover {
 .ManualImgCases {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -601,7 +691,7 @@ a:hover {
 .ManualImgCommunication {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -610,7 +700,7 @@ a:hover {
 .ManualImgBugs {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -619,7 +709,7 @@ a:hover {
 .ManualImgReport {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -628,19 +718,19 @@ a:hover {
 .ManualImgHardCore {
   width: 100px;
   height: 100px;
-  background-image: url("../img/manual-sprite.png");
+  background-image: url("../img/manual-sprite.jpg");
   border-radius: 50%;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   background-position-x: -600px; }
 
-.ManualImgHover:hover {
+.ImgHover:hover {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition: 1s;
   transition: 1s; }
 
-.ManualBlockDescription {
+.BlockDescription {
   margin-top: 10px;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
@@ -650,7 +740,7 @@ a:hover {
 .python {
   margin-top: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   background-color: #ffe873;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -669,7 +759,7 @@ a:hover {
 .Postman {
   margin-top: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   background-color: #E6FFFC;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -827,10 +917,9 @@ a:hover {
 
 .ImgQA {
   position: absolute;
-  width: 100%;
   margin-top: -100px;
   margin-left: 30px;
-  width: 180px;
+  width: 179px;
   height: 180px;
   background-image: url(../img/logo-sprite.png);
   background-repeat: no-repeat;

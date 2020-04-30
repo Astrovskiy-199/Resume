@@ -50,7 +50,7 @@ width: 320px;
 height: 320px;
 position: absolute;
 background-size: 150%;
-background-color: #3a2315;
+background-color: #01847e;
 background-position: center;
 background-repeat: no-repeat;
 z-index: 0;
@@ -165,7 +165,7 @@ a:hover {
 
 
 #MainCubeAnimationBlock {
-    margin-top: 100px;
+    margin-top: 200px;
     width: 300px;
     height: 300px;
 display: flex;
@@ -294,7 +294,7 @@ transform: rotateY(60deg);
 .AnimationCubeColorYellow {
 width: 94px;
 height: 94px;
-background-color: #e6dc32;
+background-color: #fff999;
 border: 3px solid black;
 transition: 3s;
 border-radius: 10%;
@@ -303,7 +303,7 @@ border-radius: 10%;
 .AnimationCubeColorGreen {
     width: 94px;
 height: 94px;
-    background-color: #c8db8d;
+    background-color: #c4f7c7;
     border: 3px solid black;
     transition: 2s;
     border-radius: 10%;
@@ -312,7 +312,7 @@ height: 94px;
 .AnimationCubeColorBlue {
     width: 94px;
 height: 94px;
-    background-color: #96c4cc;
+    background-color: #87d6e4;
     border: 3px solid black;
     transition: 2s;
     border-radius: 10%;
@@ -332,7 +332,7 @@ height: 94px;
     display: flex;
     width: 94px;
     height: 94px;
-    background-color: #b77ba4;
+    background-color: #bd97ca;
     border: 3px solid black;
     transition: 1s;
     border-radius: 10%;
@@ -342,7 +342,7 @@ height: 94px;
     display: flex;
     width: 94px;
     height: 94px;
-    background-color: #E6FFFC;
+    background-color: #9cfcce;
     border: 3px solid black; 
     transition: 2s; 
     border-radius: 10%;
@@ -364,15 +364,15 @@ height: 94px;
 }
 
 .BackSideOfTheCube {
-    background-color: #96c4cc;
+    background-color: #01847e;
 }
 
 .FrontSideOfTheCube {
-    background-color:#b77ba4;
+    background-color:#bd97ca; 
 }
 
 .BottomSideOfTheCube {
-    background-color: #E6FFFC;
+    background-color: #9cfcce;
 }
 
 .RightSideOfTheCube {
@@ -461,7 +461,7 @@ height: 94px;
     margin-top: 20px;
     width: 100%;
     height: 450px;
-    background-color:#b77ba4  ;
+    background-color:#9cfcce;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -472,7 +472,7 @@ height: 94px;
     margin-top: 20px;
     width: 100%;
     height: 470px;
-    background-color:#f4cb63 ;
+    background-color:#fff999 ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -539,7 +539,7 @@ background-position-x: -1px ;
     margin-top: 20px;
     width: 100%;
     height: 470px;
-    background-color:#c8db8d;
+    background-color:#6ac9e9;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -689,7 +689,7 @@ background-position-x: -1px ;
     margin-top: 20px;
     width: 100%;
     height: 470px;
-    background-color:#96c4cc;  
+    background-color:#87d6e4;  
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -698,7 +698,7 @@ background-position-x: -1px ;
 }
 
 .TypesMainBlock {
-    margin-top: 90px;
+    margin-top: 100px;
     width: 80%;
     height: 350px;
     display: flex;
@@ -810,7 +810,7 @@ transition: 1s;
     margin-top: 20px;
     width: 100%;
     height: 470px;
-    background-color:#E6FFFC;
+    background-color:#bd97ca ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -925,7 +925,7 @@ justify-content: space-around;
 
 
 .MainSkillsBlock {
-    margin-top: 150px;
+    margin-top: 185px;
     width: 100%;
     background-color: #eaeaef;
     display: flex;
@@ -936,9 +936,11 @@ justify-content: space-around;
 }
 
 .avatarImg {
+    border-radius: 13%;
     margin-top: 45px;
     width: 250px;
     height: 250px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .ImgBlock {
@@ -980,7 +982,7 @@ box-shadow: 0 0 20px rgba(0,0,0,0.5);
     height: 180px;
     background-image: url(../img/logo-sprite.png);
     background-repeat: no-repeat;
-    background-position-x: -800px ;
+    background-position-x: -799px ;
     background-size: 1305px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
@@ -1156,19 +1158,7 @@ footer {
 /* Adaptive design */
 
 
-@media(max-height:968px) {
-    header, nav, ul   {
-        margin-top: 30px;
-    }
 
-    footer {
-        margin-top: 30px;  
-    }
-
-    .MyName, .Profession, .WelcomeText {
-        text-align: center;
-    } 
-} 
 
 
 @media(max-width: 1600px) {
@@ -1200,13 +1190,170 @@ footer {
     }
 }
 
+@media(max-width: 1200px) {
+    .TypesMainBlock {
+        justify-content: space-around;
+        width: 95%;
+    }
+}
 
-@media(max-width: 650px) {
+
+@media(max-height:968px) {
+    header, nav, ul   {
+        margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 30px;  
+    }
+
+    .MyName, .Profession, .WelcomeText {
+        text-align: center;
+    } 
+
+   
+} 
+
+@media (max-width: 1150px) {
+    .TypesMainBlock {
+        height: 700px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 550px;
+    }
+
+    .manual,.perfomance {
+        height: 750px;
+    }
+
+    .security,.Postman,.javaScript,.python {
+        height: 450px;
+    }
+
+    .ImgJmeter,.ImgSecurity,.ImgPostman,.ImgJS,.ImgPython {
+        width: 150px;
+        height: 135px; 
+        background-size: 980px;
+    }
+
+    .ImgJmeter {
+        background-position: -150px;
+    }
+
+    .ImgSecurity {
+        background-position: -300px;
+    }
+    .ImgPostman {
+        background-position: -0px;
+    }
+
+    .ImgJS {
+        background-position: -450px;
+    }
+    .ImgPython {
+        background-position: -600px;
+    }
+
+
+
+
+}
+
+@media(max-width: 1050px) {
+.typeOfTesting {
+    width: 350px;
+        text-align: center;
+        font-size: 35px;
+    }
+.manual,.perfomance {
+        height: 900px;
+    }
+.security,.Postman,.javaScript,.python   {
+    height: 450px;
+}    
+
+.perfomance {
+    height: 700px;
+}
+
+    } 
+
+
+
+@media(max-width: 850px) {
+    .serificatsBlockImg {
+flex-direction: column;
+height: 1050px;
+
+    }
+    .serificatsBlock  {
+        height: 1050px;
+    }
+
+   
+}
+
+
+@media(max-width: 750px) { 
+    .typeOfTesting {
+        width: 300px;
+        font-size: 25px;
+}
+}
+
+
+@media(max-width: 675px) {
     header, nav, ul {
         flex-direction: column;
         width: 340px;
         height: 300px;
     }
+
+    .typeOfTesting {
+        width: 200px;
+        font-size: 20px;
+    }
+   .TypesMainBlock {
+       justify-content: space-around;
+   }     
+   
+   .blurBlock {
+       margin-top: 450px;
+       width: 200px;
+       height: 200px;
+       background-color: #9cfcce;
+   }
+
+}
+
+@media(max-width: 605px) {
+    .ImgJmeter,.ImgSecurity,.ImgPostman,.ImgJS,.ImgPython {
+        width: 85px;
+        height: 76px; 
+        background-size: 980px;
+    }
+
+    .ImgJmeter {
+        background-position: -150px;
+    }
+
+    .ImgSecurity {
+        background-position: -300px;
+    }
+    .ImgPostman {
+        background-position: -0px;
+    }
+
+    .ImgJS {
+        background-position: -450px;
+    }
+    .ImgPython {
+        background-position: -600px;
+    }
+
+
+
+
 
 @media (hover: none) {
 

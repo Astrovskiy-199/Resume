@@ -51,7 +51,7 @@ a {
   height: 320px;
   position: absolute;
   background-size: 150%;
-  background-color: #3a2315;
+  background-color: #01847e;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
@@ -165,7 +165,7 @@ a:hover {
     -webkit-transform: rotateX(-4040deg);
             transform: rotateX(-4040deg); } }
 #MainCubeAnimationBlock {
-  margin-top: 100px;
+  margin-top: 200px;
   width: 300px;
   height: 300px;
   display: -webkit-box;
@@ -343,7 +343,7 @@ a:hover {
 .AnimationCubeColorYellow {
   width: 94px;
   height: 94px;
-  background-color: #e6dc32;
+  background-color: #fff999;
   border: 3px solid black;
   -webkit-transition: 3s;
   transition: 3s;
@@ -352,7 +352,7 @@ a:hover {
 .AnimationCubeColorGreen {
   width: 94px;
   height: 94px;
-  background-color: #c8db8d;
+  background-color: #c4f7c7;
   border: 3px solid black;
   -webkit-transition: 2s;
   transition: 2s;
@@ -361,7 +361,7 @@ a:hover {
 .AnimationCubeColorBlue {
   width: 94px;
   height: 94px;
-  background-color: #96c4cc;
+  background-color: #87d6e4;
   border: 3px solid black;
   -webkit-transition: 2s;
   transition: 2s;
@@ -383,7 +383,7 @@ a:hover {
   display: flex;
   width: 94px;
   height: 94px;
-  background-color: #b77ba4;
+  background-color: #bd97ca;
   border: 3px solid black;
   -webkit-transition: 1s;
   transition: 1s;
@@ -395,7 +395,7 @@ a:hover {
   display: flex;
   width: 94px;
   height: 94px;
-  background-color: #E6FFFC;
+  background-color: #9cfcce;
   border: 3px solid black;
   -webkit-transition: 2s;
   transition: 2s;
@@ -410,11 +410,11 @@ a:hover {
   #MainCubeAnimationBlock:hover .LeftSideOfTheCube {
     background-color: #e6dc32; }
   #MainCubeAnimationBlock:hover .BackSideOfTheCube {
-    background-color: #96c4cc; }
+    background-color: #01847e; }
   #MainCubeAnimationBlock:hover .FrontSideOfTheCube {
-    background-color: #b77ba4; }
+    background-color: #bd97ca; }
   #MainCubeAnimationBlock:hover .BottomSideOfTheCube {
-    background-color: #E6FFFC; }
+    background-color: #9cfcce; }
   #MainCubeAnimationBlock:hover .RightSideOfTheCube {
     background-color: #c8db8d; }
   #MainCubeAnimationBlock:hover .TopSideOfTheCube {
@@ -466,7 +466,7 @@ a:hover {
   margin-top: 20px;
   width: 100%;
   height: 450px;
-  background-color: #b77ba4;
+  background-color: #9cfcce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,7 +485,7 @@ a:hover {
   margin-top: 20px;
   width: 100%;
   height: 470px;
-  background-color: #f4cb63;
+  background-color: #fff999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -558,7 +558,7 @@ a:hover {
   margin-top: 20px;
   width: 100%;
   height: 470px;
-  background-color: #c8db8d;
+  background-color: #6ac9e9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,7 +702,7 @@ a:hover {
   margin-top: 20px;
   width: 100%;
   height: 470px;
-  background-color: #96c4cc;
+  background-color: #87d6e4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -718,7 +718,7 @@ a:hover {
           align-items: center; }
 
 .TypesMainBlock {
-  margin-top: 90px;
+  margin-top: 100px;
   width: 80%;
   height: 350px;
   display: -webkit-box;
@@ -849,7 +849,7 @@ a:hover {
   margin-top: 20px;
   width: 100%;
   height: 470px;
-  background-color: #E6FFFC;
+  background-color: #bd97ca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -979,7 +979,7 @@ a:hover {
   background-position-x: -1200px; }
 
 .MainSkillsBlock {
-  margin-top: 150px;
+  margin-top: 185px;
   width: 100%;
   background-color: #eaeaef;
   display: -webkit-box;
@@ -997,9 +997,12 @@ a:hover {
           align-items: center; }
 
 .avatarImg {
+  border-radius: 13%;
   margin-top: 45px;
   width: 250px;
-  height: 250px; }
+  height: 250px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
 .ImgBlock {
   width: 100%; }
@@ -1036,7 +1039,7 @@ a:hover {
   height: 180px;
   background-image: url(../img/logo-sprite.png);
   background-repeat: no-repeat;
-  background-position-x: -800px;
+  background-position-x: -799px;
   background-size: 1305px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
@@ -1190,15 +1193,6 @@ footer {
   background-color: blanchedalmond; }
 
 /* Adaptive design */
-@media (max-height: 968px) {
-  header, nav, ul {
-    margin-top: 30px; }
-
-  footer {
-    margin-top: 30px; }
-
-  .MyName, .Profession, .WelcomeText {
-    text-align: center; } }
 @media (max-width: 1600px) {
   .mainBlockName {
     width: 80%; } }
@@ -1220,7 +1214,84 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row; } }
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
+  .TypesMainBlock {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 95%; } }
+@media (max-height: 968px) {
+  header, nav, ul {
+    margin-top: 30px; }
+
+  footer {
+    margin-top: 30px; }
+
+  .MyName, .Profession, .WelcomeText {
+    text-align: center; } }
+@media (max-width: 1150px) {
+  .TypesMainBlock {
+    height: 700px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 550px; }
+
+  .manual, .perfomance {
+    height: 750px; }
+
+  .security, .Postman, .javaScript, .python {
+    height: 450px; }
+
+  .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython {
+    width: 150px;
+    height: 135px;
+    background-size: 980px; }
+
+  .ImgJmeter {
+    background-position: -150px; }
+
+  .ImgSecurity {
+    background-position: -300px; }
+
+  .ImgPostman {
+    background-position: -0px; }
+
+  .ImgJS {
+    background-position: -450px; }
+
+  .ImgPython {
+    background-position: -600px; } }
+@media (max-width: 1050px) {
+  .typeOfTesting {
+    width: 350px;
+    text-align: center;
+    font-size: 35px; }
+
+  .manual, .perfomance {
+    height: 900px; }
+
+  .security, .Postman, .javaScript, .python {
+    height: 450px; }
+
+  .perfomance {
+    height: 700px; } }
+@media (max-width: 850px) {
+  .serificatsBlockImg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1050px; }
+
+  .serificatsBlock {
+    height: 1050px; } }
+@media (max-width: 750px) {
+  .typeOfTesting {
+    width: 300px;
+    font-size: 25px; } }
+@media (max-width: 675px) {
   header, nav, ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1228,6 +1299,40 @@ footer {
             flex-direction: column;
     width: 340px;
     height: 300px; }
+
+  .typeOfTesting {
+    width: 200px;
+    font-size: 20px; }
+
+  .TypesMainBlock {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+
+  .blurBlock {
+    margin-top: 450px;
+    width: 200px;
+    height: 200px;
+    background-color: #9cfcce; } }
+@media (max-width: 605px) {
+  .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython {
+    width: 85px;
+    height: 76px;
+    background-size: 980px; }
+
+  .ImgJmeter {
+    background-position: -150px; }
+
+  .ImgSecurity {
+    background-position: -300px; }
+
+  .ImgPostman {
+    background-position: -0px; }
+
+  .ImgJS {
+    background-position: -450px; }
+
+  .ImgPython {
+    background-position: -600px; }
 
   #MainCubeAnimationBlock {
     margin-top: 150px;

@@ -479,7 +479,9 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .perfomance {
   margin-top: 20px;
@@ -498,7 +500,9 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .perfomanceIMGHardware {
   width: 99px;
@@ -571,7 +575,9 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .securityIMGXss {
   width: 99px;
@@ -715,7 +721,9 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .TypesMainBlock {
   margin-top: 100px;
@@ -843,13 +851,15 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .Postman {
   margin-top: 20px;
   width: 100%;
   height: 470px;
-  background-color: #bd97ca;
+  background-color: #9853bd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -862,7 +872,9 @@ a:hover {
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .otherTools {
   display: -webkit-box;
@@ -1101,6 +1113,35 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+#ButtonTop {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  margin-top: 90vh;
+  border-radius: 50%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 38%;
+  display: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: cornsilk;
+  opacity: 0.5; }
+
+.ButtonTopText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #3a2315; }
+
 /** Social networks **/
 .ContactsMail {
   border-radius: 50%;
@@ -1109,7 +1150,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 395px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsMail:hover {
   background-image: url("../img/sprite.png"); }
@@ -1121,7 +1164,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 336px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsVK:hover {
   background-image: url("../img/sprite.png"); }
@@ -1133,7 +1178,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 280px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsLinkedin:hover {
   background-image: url("../img/sprite.png"); }
@@ -1145,7 +1192,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 224px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsInstagram:hover {
   background-image: url("../img/sprite.png"); }
@@ -1157,7 +1206,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 166px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsTelegram:hover {
   background-image: url("../img/sprite.png"); }
@@ -1169,7 +1220,9 @@ footer {
   background-image: url("../img/sprite_without_hover.png");
   background-position-x: 109px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsSkype:hover {
   background-image: url("../img/sprite.png"); }
@@ -1179,9 +1232,11 @@ footer {
   width: 50px;
   height: 50px;
   background-image: url("../img/sprite_without_hover.png");
-  background-position-x: 51px;
+  background-position-x: 52px;
   background-position-y: -3px;
-  background-size: 400px; }
+  background-size: 400px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .ContactsPhone:hover {
   background-image: url("../img/sprite.png"); }
@@ -1191,6 +1246,35 @@ footer {
   width: 50px;
   height: 50px;
   background-color: blanchedalmond; }
+
+.DownloadResume {
+  width: 230px;
+  height: 35px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8dd954), to(#68a83a));
+  background: linear-gradient(to top, #8dd954, #68a83a);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-weight: 900;
+  margin-bottom: 10px; }
+
+.DownloadResume:hover {
+  -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); }
 
 /* Adaptive design */
 @media (max-width: 1600px) {
@@ -1317,23 +1401,79 @@ footer {
   .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython {
     width: 85px;
     height: 76px;
-    background-size: 980px; }
+    background-size: 550px; }
 
   .ImgJmeter {
-    background-position: -150px; }
+    background-position: -84px; }
 
   .ImgSecurity {
-    background-position: -300px; }
+    background-position: -168px; }
 
   .ImgPostman {
     background-position: -0px; }
 
   .ImgJS {
-    background-position: -450px; }
+    background-position: -253px; }
 
   .ImgPython {
-    background-position: -600px; }
+    background-position: -336px; } }
+@media (max-width: 605px) and (max-width: 550px) {
+  .TypesMainBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 280px;
+    height: 1750px; }
 
+  .manual {
+    height: 2000px; }
+
+  .security, .Postman {
+    height: 1350px; }
+
+  .python {
+    height: 750px; }
+
+  .javaScript {
+    height: 1200px; }
+
+  .security, .Postman, .javaScript, .python, .manual, .perfomance {
+    width: 90%; }
+
+  .perfomance {
+    height: 1900px; }
+
+  .ImgQA {
+    margin-left: -20px;
+    margin-top: -70px;
+    width: 110px;
+    height: 110px;
+    background-size: 760px;
+    background-position-x: -585px; }
+
+  .ImgJmeter {
+    margin-left: -10px;
+    margin-top: -45px; }
+
+  .ImgSecurity {
+    margin-left: -10px;
+    margin-top: -45px; }
+
+  .ImgPostman {
+    margin-left: -10px;
+    margin-top: -45px; }
+
+  .ImgJS {
+    margin-left: -10px;
+    margin-top: -45px; }
+
+  .ImgPython {
+    margin-left: -10px;
+    margin-top: -45px; } }
+@media (max-width: 605px) {
   #MainCubeAnimationBlock {
     margin-top: 150px;
     width: 150px;

@@ -103,6 +103,7 @@ border-radius: 10px;
 }
 
 .mainHeaderText {
+    margin-right: 20px;
     font-size: 65px;
     color: #97c160;
     line-height: 80px; 
@@ -234,15 +235,34 @@ box-shadow: 0 0 10px #D1E7B3;
 border-radius: 10px;
 }
 
-.FirstBlockAboutDescription {
+.BlockAboutDescription {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 width: 70%;
-height: 650px; 
+height: 450px; 
 
 
+}
+
+.headerText {
+    font-size: 45px;
+    color: #97c160;
+    line-height: 80px; 
+    font-weight: 900; 
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
+}
+
+.DescriptionText {
+    z-index: 1;
+    font-size: 20px;
+    color: #755b60;
+    font-family: 'Oswald', sans-serif;
+    width: 80%;
+    text-align: center;
 }
 
 .FirstBlockAboutImg {
@@ -258,6 +278,145 @@ transition: 0.5s;
 }
 
 
+.secondBlockWithText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+background-color:#f8ffef ;
+width: 80%;
+height: 650px;
+box-shadow: 0 0 10px #D1E7B3;
+border-radius: 10px;
+}
+
+
+.thirdBlockWithIMG {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+background-color:#f8ffef ;
+width: 80%;
+height: 650px;
+box-shadow: 0 0 10px #D1E7B3;
+border-radius: 10px;
+}
+
+.thirdBlockImg {
+
+        max-width: 550px;
+        border-radius: 5px;
+        max-height: 646px;
+        filter: grayscale(100%); 
+        transition: 0.5s;
+        }
+        
+        .thirdBlockImg:hover {
+            filter: grayscale(0%); 
+        }
+
+
+    .FourthBlockAboutDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    background-color:#f8ffef ;
+    width: 80%;
+    height: 650px;
+    box-shadow: 0 0 10px #D1E7B3;
+    border-radius: 10px;
+    }
+
+    #grid {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:15px ;
+    }
+
+    .gridFraction {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #eaf6d9;
+        width: 350px;
+        height: 120px; 
+        border-radius: 5px;
+        box-shadow: 0 0 10px #D1E7B3;
+
+    }
+
+    .gridFractionDark {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #97c160;
+        width: 350px;
+        height: 120px; 
+        border-radius: 5px;
+        box-shadow: 0 0 10px #D1E7B3;
+
+    }
+
+
+    .MarkImg {
+       
+
+        width: 67px;
+        height: 67px;
+        background-image: url('../img/mark.png');
+        background-size: 65px;
+        background-position: center;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+    }
+
+
+    .sixthBlockWithBackground {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+
+        margin-top: 30px;
+    background-color:#f8ffef ;
+    width: 80%;
+    height: 650px;
+    box-shadow: 0 0 10px #D1E7B3;
+    border-radius: 10px;
+    }
+
+    .gridSixthBlock {
+        position: absolute;
+        height: 650px;
+        width: 80%;
+        grid-gap: 2px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        
+
+    }
+
+   
+
+    .partOfImageSixthBlock {
+       background-color: gray; 
+       border-radius: 5px;
+       
+       
+       
+       
+    }
+        
 
 
 footer {

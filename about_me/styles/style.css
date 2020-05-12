@@ -151,6 +151,16 @@ a:hover {
 .applewImg {
   max-width: 50%; }
 
+.UnderlineBrown {
+  margin-top: -25px;
+  width: 30%;
+  border-bottom: 3px solid #855b60; }
+
+.UnderlineGreen {
+  margin-top: 20px;
+  width: 30%;
+  border-bottom: 3px solid #97c160; }
+
 .keyPointsBlock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,6 +255,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 70%;
   font-size: 20px;
   color: #755b60;
   font-family: 'Oswald', sans-serif; }
@@ -288,6 +299,7 @@ a:hover {
   height: 450px; }
 
 .headerText {
+  text-align: center;
   font-size: 45px;
   color: #97c160;
   line-height: 80px;
@@ -570,6 +582,113 @@ a:hover {
   height: 120px;
   width: 100px;
   background-color: aqua; }
+
+.eithBlockWithText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  background-color: #f8ffef;
+  width: 80%;
+  height: 650px;
+  -webkit-box-shadow: 0 0 10px #D1E7B3;
+          box-shadow: 0 0 10px #D1E7B3;
+  border-radius: 10px; }
+
+.eithBlockWithTextHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35%;
+  height: 650px;
+  border: 2px solid green; }
+
+.eithBlockWithTextDexcription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55%;
+  height: 650px;
+  border: 2px solid green; }
+
+.eithBlockImg {
+  margin-top: 25px;
+  width: 200px;
+  height: 250px;
+  border: 2px solid blue; }
+
+.ninthBlockWithPoints {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+  background-color: #f8ffef;
+  width: 80%;
+  height: 650px;
+  -webkit-box-shadow: 0 0 10px #D1E7B3;
+          box-shadow: 0 0 10px #D1E7B3;
+  border-radius: 10px; }
+
+.ninthBlockPointsBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 220px;
+  width: 100%;
+  border: 2px solid gray; }
+
+.ninthBlockPoint {
+  background-color: grey;
+  width: 140px;
+  height: 220px; }
 
 footer {
   margin-bottom: 15px;

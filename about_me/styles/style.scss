@@ -103,6 +103,7 @@ border-radius: 10px;
 }
 
 .mainHeaderText {
+    
     margin-right: 20px;
     font-size: 65px;
     color: #97c160;
@@ -146,6 +147,19 @@ font-family: 'Oswald', sans-serif;
     max-width: 50%;;
 }
 
+
+.UnderlineBrown {
+    margin-top: -25px;
+    width: 30%;
+    border-bottom: 3px solid #855b60;
+
+}
+.UnderlineGreen {
+    margin-top: 20px;
+    width: 30%;
+    border-bottom: 3px solid #97c160;
+
+}
 
 
 
@@ -215,6 +229,7 @@ font-family: 'Oswald', sans-serif;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: 70%;
     font-size: 20px;
 color: #755b60;
 font-family: 'Oswald', sans-serif;
@@ -247,6 +262,7 @@ height: 450px;
 }
 
 .headerText {
+    text-align: center;
     font-size: 45px;
     color: #97c160;
     line-height: 80px; 
@@ -472,6 +488,80 @@ border-radius: 10px;
         height: 120px;
         width: 100px;
         background-color: aqua;
+    }
+
+
+    .eithBlockWithText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+  
+          margin-top: 30px;
+      background-color:#f8ffef ;
+      width: 80%;
+      height: 650px;
+      box-shadow: 0 0 10px #D1E7B3;
+      border-radius: 10px; 
+    }
+
+    .eithBlockWithTextHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        height: 650px;
+        border: 2px solid green;
+    }
+
+    .eithBlockWithTextDexcription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+        height: 650px;
+        border: 2px solid green;
+    }
+
+    .eithBlockImg {
+        margin-top: 25px;
+        width: 200px;
+        height: 250px;
+        border: 2px solid blue;
+    }
+
+
+    .ninthBlockWithPoints {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+  
+          margin-top: 30px;
+      background-color:#f8ffef ;
+      width: 80%;
+      height: 650px;
+      box-shadow: 0 0 10px #D1E7B3;
+      border-radius: 10px; 
+    }
+
+    .ninthBlockPointsBlock {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 220px;
+        width: 100%;
+        border: 2px solid gray;
+    }
+
+    .ninthBlockPoint {
+        background-color: grey;
+        width: 140px;
+        height: 220px;
+
     }
 
 

@@ -578,6 +578,182 @@ a:hover {
           box-shadow: 0 0 10px #D1E7B3;
   border-radius: 10px; }
 
+#image_viewBlock {
+  margin-top: 150px;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  max-width: 800px;
+  max-height: 600px;
+  height: 65vw;
+  z-index: 2;
+  background-image: url("../img/qa-course-one-small.jpg");
+  background-size: 100%;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px; }
+
+.ButtonRightAndCloseMainBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50px;
+  height: 100%; }
+
+#image_viewBlock_Close {
+  margin: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 5;
+  width: 35px;
+  height: 35px;
+  background-color: #fbfbe5;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8); }
+
+#image_viewBlock_Close:hover {
+  background-color: #999182;
+  -webkit-filter: opacity(1);
+          filter: opacity(1); }
+  #image_viewBlock_Close:hover .image_viewBlock_Close_text {
+    color: #fbfbe5; }
+
+.image_viewBlock_Close_text {
+  margin-left: 1px;
+  margin-top: -5px;
+  font-size: 25px;
+  color: #755b60;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; }
+
+#imageViewBlockButtonLeft {
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fbfbe5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: none;
+  -webkit-box-shadow: 0 0 10px #D1E7B3;
+          box-shadow: 0 0 10px #D1E7B3;
+  cursor: pointer;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8); }
+
+.arrowLeft {
+  margin-top: -25px;
+  margin-left: -5px;
+  width: 50%;
+  height: 40%;
+  z-index: 1;
+  font-size: 25px;
+  color: #755b60;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; }
+
+#imageViewBlockButtonLeft:hover {
+  background-color: #999182;
+  border: 2px solid #fbfbe5;
+  -webkit-filter: opacity(1);
+          filter: opacity(1); }
+  #imageViewBlockButtonLeft:hover .arrowLeft {
+    color: #fbfbe5; }
+
+.arrowRight {
+  margin-top: -25px;
+  margin-right: -5px;
+  width: 50%;
+  height: 40%;
+  z-index: 1;
+  font-size: 25px;
+  color: #755b60;
+  font-family: 'Oswald', sans-serif; }
+
+#imageViewBlockButtonRight:hover {
+  background-color: #999182;
+  border: 2px solid #fbfbe5;
+  -webkit-filter: opacity(1);
+          filter: opacity(1); }
+  #imageViewBlockButtonRight:hover .arrowRight {
+    color: #fbfbe5; }
+
+#imageViewBlockButtonRight {
+  margin-top: -50px;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fbfbe5;
+  -webkit-box-shadow: 0 0 10px #D1E7B3;
+          box-shadow: 0 0 10px #D1E7B3;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+  cursor: pointer; }
+
 .seventBlockHeader {
   background-color: #eaf6d9;
   width: 100%;
@@ -600,8 +776,7 @@ a:hover {
 .seventhBlockIcons {
   margin-top: -75px;
   width: 100%;
-  border: 2px solid red;
-  height: 215px;
+  height: 255px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -626,17 +801,17 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 215px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 255px;
   width: 165px;
-  background-color: #DD0000; }
+  cursor: pointer; }
 
 .seventhBlockIconsFractionIcon {
-  height: 120px;
-  width: 100%;
-  background-color: aqua; }
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 150px; }
 
 .eithBlockWithText {
   display: -webkit-box;
@@ -692,15 +867,13 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 55%;
+  width: 60%;
   height: 650px;
   border: 2px solid green; }
 
 .eithBlockImg {
   margin-top: 25px;
-  width: 200px;
-  height: 250px;
-  border: 2px solid blue; }
+  width: 95%; }
 
 .ninthBlockWithPoints {
   display: -webkit-box;
@@ -768,12 +941,6 @@ a:hover {
   border-radius: 10px; }
 
 .TenthImgBlock {
-  width: 30%;
-  height: 650px;
-  border-radius: 5px;
-  background-color: grey; }
-
-.TenthTextBlock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -787,18 +954,37 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 35%;
+  border-radius: 5px; }
+
+.TenthTextBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 60%;
   height: 650px; }
 
 .TenthImgTop {
-  height: 325px;
-  width: 99%;
-  border: 2px solid black; }
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 99%;
+  max-height: 300px; }
 
 .TenthImgBottom {
-  height: 325px;
-  width: 99%;
-  border: 2px solid black; }
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 99%;
+  max-height: 300px; }
 
 .eleventBlockWithText {
   display: -webkit-box;
@@ -860,9 +1046,7 @@ a:hover {
   background-color: #eaf6d9; }
 
 .eleventBlockHeaderSideImg {
-  width: 200px;
-  height: 300px;
-  border: 2px solid black;
+  width: 95%;
   margin-top: 25px; }
 
 .TwelfthBlockWithImg {
@@ -1409,8 +1593,7 @@ footer {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 80%;
-    height: 450px; }
+    width: 80%; }
 
   .TenthImgTop {
     width: 45%; }
@@ -1473,6 +1656,9 @@ footer {
   .WelcomeBlock, .keyPointsBlockMainBlock, .keyPointsBlock, .FirstBlockAboutMe, .secondBlockWithText, .thirdBlockWithIMG, .FourthBlockAboutDescription, .gridSixthBlock, .seventhBlockWithIcons, .eithBlockWithText, .ninthBlockWithPoints, .tenthMainBlock, .eleventBlockWithText, .TwelfthBlockWithImg, .thirteenMainBlockFacts, .FourteenthBlockBackground, .FifteenthBlockWithPhoto {
     width: 95%; }
 
+  .sixthBlockWithBackground {
+    width: 95%; }
+
   .DescriptionText {
     width: 95%; }
 
@@ -1504,7 +1690,13 @@ footer {
     width: 95%; }
 
   .thirdBlockImg {
-    max-height: 350px; } }
+    max-height: 350px; }
+
+  .TenthImgTop, .TenthImgBottom {
+    width: 100%; }
+
+  .TenthImgBlock {
+    width: 85%; } }
 @media (max-width: 450px) {
   .TwelfthBlockWithImg {
     height: 1150px; }
@@ -1519,14 +1711,7 @@ footer {
     height: 800px; }
 
   .TenthImgBlock {
-    width: 100%;
-    height: 650px; }
-
-  .TenthImgTop {
-    width: 80%; }
-
-  .TenthImgBottom {
-    width: 80%; }
+    width: 90%; }
 
   .thirteenMainBlockFacts {
     height: 750px; }
@@ -1548,13 +1733,27 @@ footer {
     height: 450px; } }
 @media (max-width: 421px) {
   .thirteenMainBlockFacts {
-    height: 1450px; } }
+    height: 1450px; }
+
+  .TenthImgBlock {
+    width: 95%; } }
 @media (max-width: 400px) {
+  .partOfImageSixthBlockBottomRight:Hover {
+    background-size: 100%;
+    background-position: center; }
+
+  .TenthImgBlock {
+    width: 100%; }
+
+  .TenthImgTop, .TenthImgBottom {
+    width: 100%;
+    height: 325px; }
+
   .tenthMainBlock {
     height: 1150px; }
 
   .seventhBlockWithIcons {
-    height: 1450px; }
+    height: 1650px; }
 
   .seventhBlockIcons {
     height: 1250px;
@@ -1562,6 +1761,9 @@ footer {
 
   .gridFractionDark {
     width: 300px; }
+
+  .headerText {
+    font-size: 25px; }
 
   .gridFraction {
     width: 300px; }
@@ -1621,7 +1823,11 @@ footer {
     height: 550px; } }
 @media (max-width: 360px) {
   ul, nav, header {
-    width: 300px; } }
+    width: 300px; }
+
+  .TenthImgTop, .TenthImgBottom {
+    width: 100%;
+    height: 250px; } }
 @media (max-height: 968px) {
   header, nav, ul {
     margin-top: 30px; }

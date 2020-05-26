@@ -410,23 +410,33 @@ border-radius: 10px;
         margin-top: 30px;
     background-color:#f8ffef ;
     width: 80%;
-    height: 650px;
+    height: 1050px;
     box-shadow: 0 0 10px #D1E7B3;
     border-radius: 10px;
     }
 
     .gridSixthBlock {
         
-        height: 470px;
+        height: 870px;
         width: 60%;
         grid-gap: 2px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         
-        
-
+    
     }
+
+    .dinophoto {
+        cursor: pointer;
+    }
+
+    .dinovideo {
+        width: 100%;
+      grid-column: 1 / 3;
+    }
+
+
 
    
 
@@ -508,7 +518,19 @@ border-radius: 10px;
       border-radius: 10px; 
     }
 
+    @keyframes showImg {
+        from {
+            filter: blur(10px);
+        }
+
+        to {
+            filter: blur(0px);
+        }
+    }
+
     #image_viewBlock {
+        animation: showImg; 
+        animation-duration: 0.5s;
         margin-top: 150px;                           
         display: none;
         flex-direction: row;
@@ -525,6 +547,7 @@ border-radius: 10px;
         background-repeat: no-repeat;
         transition: 0.4s;
         border-radius: 5px;
+        
     }
 
     .ButtonRightAndCloseMainBlock {
@@ -684,7 +707,6 @@ height: 100%;
         justify-content: flex-start;
         height: 255px;
         width: 165px;
-        
         cursor: pointer;
     }
 
@@ -692,6 +714,16 @@ height: 100%;
         border-radius: 5px;
         max-width: 100%;
         max-height: 150px;
+        filter: grayscale(100%);
+        transition: 0.5s;
+        
+        
+    }
+
+    .seventhBlockIconsFractionIcon:Hover {
+        filter: grayscale(0%); 
+        border: 2px solid #755b60;
+        margin-top: -15px;
         
     }
 
@@ -760,15 +792,39 @@ height: 100%;
         justify-content: space-around;
         height: 220px;
         width: 100%;
-        border: 2px solid gray;
+        
     }
 
     .ninthBlockPoint {
-        background-color: grey;
-        width: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 5px;
+        width: 180px;
         height: 220px;
+        
 
     }
+
+    .ninthBlockIconsFractionIcon {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 150px;
+        filter: grayscale(100%);
+        transition: 0.5s;
+        cursor: pointer;
+        
+        
+    }
+
+    .ninthBlockIconsFractionIcon:Hover {
+        filter: grayscale(0%); 
+        border: 2px solid #755b60;
+        margin-top: -25px;
+        
+    }
+    
 
 
   .tenthMainBlock {
@@ -887,12 +943,26 @@ margin-top: 25px;
     width: 65%;
 }
 
-.TwelfthBlockImg {
+.TwelfthBlockImgBlock {
     width: 30%;
     height: 650px;
-    border: 2px solid black;
     border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.TwelfthBlockImg {
+    width: 100%;
+    border-radius: 5px ;
+    filter: grayscale(100%); 
+    transition: 0.5s;
+    }
+    
+    .TwelfthBlockImg:hover {
+        filter: grayscale(0%); 
+    }
 
 
 .thirteenMainBlockFacts {
@@ -1196,13 +1266,18 @@ margin-bottom: 10px;
     .gridSixthBlock {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 1100px;
+        height: 1250px;
        
 
     }
 
+    .dinovideo {
+        width: 100%;
+      grid-column: 1/2
+    }
+
     .sixthBlockWithBackground {
-        height: 1400px;
+        height: 1500px;
     }
 
     .gridSixthBlock {
@@ -1369,7 +1444,7 @@ margin-bottom: 10px;
     width: 90%;
 }
 
-.TwelfthBlockImg {
+.TwelfthBlockImgBlock {
     height: 450px;
     width: 250px;
 }
@@ -1377,6 +1452,8 @@ margin-bottom: 10px;
 }
 
 @media(max-width:850px) {
+
+
 .WelcomeBlock {
     flex-direction: column;
     margin-top: 75px;
@@ -1426,12 +1503,12 @@ width: 95%;
 
     .eithBlockWithText {
         flex-direction: column;
-        height: 750px;
+        height: 1000px;
     }
 
     .eithBlockWithTextHeader {
         width: 95%;
-        height: 420px;
+        height: 720px;
     }
 
     .eithBlockWithTextDexcription {
@@ -1532,6 +1609,18 @@ width: 100%;
 
 }
 
+
+@media(max-width:600px) {
+    .ninthBlockWithPoints {
+        height: 1200px;   
+       }
+   
+       .ninthBlockPointsBlock {
+           height: 850px;
+       }
+}
+
+
 @media(max-width:550px) {
     .keyPointsBlockMainBlockHeader {
         width: 95%;
@@ -1546,10 +1635,16 @@ width: 100%;
     }
 
     .TenthImgBlock {
-        width: 85%;
+        width: 80%;
     }
 
-    
+    .ninthBlockWithPoints {
+     height: 1200px;   
+    }
+
+    .ninthBlockPointsBlock {
+        height: 850px;
+    }
     
 }
 
@@ -1563,11 +1658,11 @@ width: 100%;
     }
 
     .ninthBlockWithPoints {
-        height: 1100px;
+        height: 1200px;
     }
 
     .ninthBlockPointsBlock {
-        height: 800px;
+        height: 850px;
     }
 
     .TenthImgBlock {
@@ -1709,6 +1804,14 @@ width: 300px;
         height: 550px;
     }
 
+    .ninthBlockWithPoints {
+        height: 1850px;
+    }
+
+    .ninthBlockPointsBlock {
+        height: 1350px;
+    }
+
 }
 
 @media(max-width:360px) {
@@ -1721,6 +1824,12 @@ ul,nav,header {
     height: 250px;
 }
 
+ .ninthBlockWithPoints {
+height: 1800px;
+}
+.ninthBlockPointsBlock {
+    height: 1350px;
+}
 }
 
 

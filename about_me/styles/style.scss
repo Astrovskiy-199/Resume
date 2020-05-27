@@ -34,7 +34,7 @@ time, mark, audio, video {
   
 
   
-  .mainBlock {
+  #mainBlock {
       width: 100%;
 
       display: flex;
@@ -529,6 +529,8 @@ border-radius: 10px;
     }
 
     #image_viewBlock {
+        background-color: #868686;
+        background-image: url('../img/mark-light.jpg');
         animation: showImg; 
         animation-duration: 0.5s;
         margin-top: 150px;                           
@@ -762,7 +764,7 @@ height: 100%;
         border: 2px solid green;
     }
 
-    .eithBlockImg {
+    .companyIMG {
         margin-top: 25px;
         width: 95%;
         
@@ -913,12 +915,7 @@ height: 100%;
     background-color: #eaf6d9;
 }
 
-.eleventBlockHeaderSideImg {
-width: 95%;
 
-
-margin-top: 25px;
-}
 
 
 .TwelfthBlockWithImg {
@@ -1298,9 +1295,20 @@ margin-bottom: 10px;
         height: 650px;
     }
 
+    #image_viewBlock {
+        margin-top: 50px;
+    }
+
     
 }
 
+@media(max-height:650px  ) {
+    #image_viewBlock {
+        margin-top: 10px;
+        width: 60%;
+        height: 90vh;
+    }
+}
 
 
 @media(max-width:1050px) {
@@ -1331,6 +1339,22 @@ margin-bottom: 10px;
         width: 100%;
     }
 
+    .WelcomeBlock {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 75px;
+        height: 850px;
+    }
+
+    .WelcomeTextBlock {
+        align-items: center;
+    }
+
+    .mainHeaderText {
+        width: 90%;
+    }
+
     
 }
 
@@ -1346,6 +1370,7 @@ margin-bottom: 10px;
     .keyPointsBlockMainBlockDescription {
         font-size: 20px;
     }
+    
 }
 
 
@@ -1454,11 +1479,7 @@ margin-bottom: 10px;
 @media(max-width:850px) {
 
 
-.WelcomeBlock {
-    flex-direction: column;
-    margin-top: 75px;
-    height: 850px;
-}
+
 
 .WelcomeTextBlock {
     align-items: center;

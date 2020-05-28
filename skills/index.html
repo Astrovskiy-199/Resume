@@ -7,14 +7,24 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <title>Skills</title>
 </head>
+
 <body>
     <!-- Header of the main page -->
-    <div class="mainBlock">
+    <script>window.onload = function() {
+        mainBlock.style.display="flex";
+         loader.style.display="none";
+       
+   }</script>
+   
+   <div id="loader"><p id="lodaer_text"> Loading... </p></div>
+   
+    <div id="mainBlock">
+        <div id="ShowImageBlock"> <div id="ShowImageBlockClose">&#10008;</div>  </div>
         <div class="blurBlock"> </div>
        <header> <nav> 
         <ul> 
-           <li class="menuButtons"><a class="menuButtonsLink" href="#">Главная</a></li>
-            <li class="menuButtons"><a class="menuButtonsLink" href="#"> Обо мне</a></li>
+           <li class="menuButtons"><a class="menuButtonsLink" href="../index.html">Главная</a></li>
+            <li class="menuButtons"><a class="menuButtonsLink" href="../about_me/index.html"> Обо мне</a></li>
             <li class="menuButtonsActive"><a class="menuButtonsLinkActive" href="#">Навыки</a></li>
             <li class="menuButtons"><a class="menuButtonsLink" href="#">Портфолио</a></li>
 
@@ -182,7 +192,29 @@
     
     </div>
 
+
 </div>
+
+
+<div class="otherTools"> 
+        
+    <div class="ExampleBlock">
+        <img class="ExampleBlockImg" src="./img/TestCase.jpg">
+        <p class="BlockDescription"> Пример оформления тест-кейсов </p>
+    </div>
+
+    <div class="ExampleBlock">
+        <img class="ExampleBlockImg" src="./img/TestReport.jpg">
+        <p class="BlockDescription"> Пример оформления отчетов </p>
+    </div>
+
+    <div class="ExampleBlock">
+        <img class="ExampleBlockImg" src="./img/estimation.jpg">
+        <p class="BlockDescription"> Пример оформления эстимации </p>
+
+    </div>
+</div>
+
 <div class="otherTools"> 
 <div class="Windows" > </div>
 <div class="Ubuntu"> </div>
@@ -197,6 +229,8 @@
 
 </div> 
 
+
+
 <div class="serificatsBlock ">  <h1 class="typeOfTesting">СЕРТИФИКАТЫ </h1><div  class="serificatsBlockImg">  <img class="serificatsImg" src="img/front-end.png">  <img class="serificatsImg" src="img/Epam.png"> <img class="serificatsImg" src="img/a1qa.png">   </div>    </div>
 
 
@@ -208,7 +242,7 @@
 
 
 <!-- Footer of the main page -->
-<div id="ButtonTop"> <a class="ButtonTopText" href="#top">&#9650;</a><a class="ButtonTopText" href="#top">НАВЕРХ</a></div>
+<a id="ButtonTop" href="#top"> <p class="ButtonTopText" >&#9650; </p> <p class="ButtonTopText" >НАВЕРХ</p> </a>
 
 <footer> 
     <a class="socialLink" href="mailto:Astrovskiy.A@gmail.com" onclick="alert('Мой Email Astrovskiy.A@gmail.com')" > <div class="ContactsMail"> </div></a>
@@ -223,7 +257,7 @@
 <a class="DownloadResume" download href="./resume.png" >&#11015; СКАЧАТЬ РЕЗЮМЕ</a>
     
 
-</div>
+</div></div>>
     
     <script src="./script/script.js"> </script> 
 </body>

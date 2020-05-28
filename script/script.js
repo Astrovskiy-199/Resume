@@ -1,5 +1,7 @@
-var killBug = document.getElementById("bug")
-var count =0
+var mainBlock = document.getElementById("mainBlock");
+var loader = document.getElementById("loader");
+var killBug = document.getElementById("bug");
+var count =0;
 
 killBug.addEventListener("click", function() { count++
     if(count == 1) {

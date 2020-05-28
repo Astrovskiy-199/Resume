@@ -9,10 +9,12 @@
 </head>
 <body>
     <script>window.onload = function() {
-        
-        
+        mainBlock.style.display="flex";
+         loader.style.display="none";
     }</script>
     <!-- Header of the main page -->
+    <img src="img/malpa.gif" width="0px"  >
+    <div id="loader"> <p id="lodaer_text"> Loading... </p></div>
     <div id="mainBlock">
         <div id="image_viewBlock">  
             <div id="imageViewBlockButtonLeft"> <p class="arrowLeft"> &#x25C4; </p>	 </div>
@@ -23,9 +25,9 @@
         </div>
        <header> <nav> 
         <ul> 
-           <li class="menuButtons"><a class="menuButtonsLink" href="#">Главная</a></li>
+           <li class="menuButtons"><a class="menuButtonsLink" href="../index.html">Главная</a></li>
             <li class="menuButtonsActive"><a class="menuButtonsLinkActive" href="#"> Обо мне</a></li>
-            <li class="menuButtons"><a class="menuButtonsLink" href="#">Навыки</a></li>
+            <li class="menuButtons"><a class="menuButtonsLink" href="../skills/index.html">Навыки</a></li>
             <li class="menuButtons"><a class="menuButtonsLink" href="#">Портфолио</a></li>
 
         </ul>
@@ -252,8 +254,8 @@
         </div>
 
 
-<div id="ButtonTop"> <a class="ButtonTopText" href="#top">&#9650;</a><a class="ButtonTopText" href="#top">НАВЕРХ</a></div>
-
+ <a id="ButtonTop" href="#top"> <p class="ButtonTopText" >&#9650; </p> <p class="ButtonTopText" >НАВЕРХ</p> </a>
+ 
 <footer> 
     <a class="socialLink" href="mailto:Astrovskiy.A@gmail.com" onclick="alert('Мой Email Astrovskiy.A@gmail.com')" > <div class="ContactsMail"> </div></a>
     <a class="socialLink" href="https://vk.com/freedom13"><div class="ContactsVK"></div> </a>

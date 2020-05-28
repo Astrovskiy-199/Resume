@@ -26,8 +26,7 @@ a {
   text-decoration: none;
   color: #000000; }
 
-.mainBlock {
-  width: 100%;
+body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,9 +37,73 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+#mainBlock {
+  width: 100%;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+#loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  width: 110px;
+  height: 100px;
+  position: fixed;
+  background-image: url("../../img/malpa.gif");
+  z-index: 2;
+  top: 45%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes loaderTextFlash {
+  from {
+    color: #755b60; }
+  to {
+    color: #97c160; } }
+
+@keyframes loaderTextFlash {
+  from {
+    color: #755b60; }
+  to {
+    color: #97c160; } }
+#lodaer_text {
+  -webkit-animation: loaderTextFlash;
+          animation: loaderTextFlash;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-top: 150px;
+  font-size: 25px;
+  color: #755b60;
+  font-family: 'Oswald', sans-serif; }
 
 .blurBlock {
   margin-top: 355px;
@@ -1095,6 +1158,100 @@ a:hover {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
+#ShowImageBlock {
+  position: fixed;
+  -webkit-animation: showImg;
+          animation: showImg;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  margin-top: 10vh;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 600px;
+  height: 65vw;
+  z-index: 4;
+  background-size: 100%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px; }
+
+#ShowImageBlockClose {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -25px;
+  margin-right: -25px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fff999;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #3a2315;
+  font-size: 30px; }
+
+#ShowImageBlockClose:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #8ae96b; }
+
+.ExampleBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  width: 330px;
+  height: 250px; }
+
+.ExampleBlockImg {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 100%; }
+
+.ExampleBlockImg:hover {
+  width: 98%;
+  cursor: pointer;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
 footer {
   margin-bottom: 15px;
   width: 408px;
@@ -1117,7 +1274,7 @@ footer {
   width: 70px;
   height: 70px;
   position: fixed;
-  margin-top: 90vh;
+  margin-top: 85vh;
   border-radius: 50%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -1141,6 +1298,11 @@ footer {
   font-size: 20px;
   text-align: center;
   color: #3a2315; }
+
+#ButtonTop:hover {
+  background-color: #97c160;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 /** Social networks **/
 .ContactsMail {

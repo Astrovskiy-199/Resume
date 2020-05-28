@@ -1,6 +1,6 @@
 
-var image_viewBlock_button_left = document.getElementById("mainBlock")
-
+var mainBlock = document.getElementById("mainBlock");
+var loader = document.getElementById("loader");
 var ButtonTop = document.getElementById("ButtonTop");
 var countCharity = 0
 var count_of_IMG = 0
@@ -16,6 +16,9 @@ window.addEventListener('scroll', function() {
     }
 
 });
+
+
+
 
 var dinophoto = document.getElementsByClassName('dinophoto')
 for (i = 0; i < dinophoto.length; i++) 

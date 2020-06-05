@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
+
+h1
+{
+color: red;
+font: bold 20px Arial;
+font-family: 'Underdog', cursive;
+}
+.cart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+height: 70px;
+top: 20px;
+right: 20px;
+border-radius: 5px;
+font: normal 11px Arial;
+
+}
+.price
+{
+    display: flex;
+width: 100%;
+font: normal 16px Arial;
+border-radius: 5px;
+background: #F0F0F0;
+text-align: center;
+background-color: #102C44;
+font-family: 'Underdog', cursive;
+}

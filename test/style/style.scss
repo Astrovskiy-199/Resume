@@ -1,0 +1,346 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+  @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+  #mainblock {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 35px;
+    width: 100%;
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% ;
+    border: 2px solid seashell;
+    
+  }
+
+
+  #mainblockContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 50%;
+      border: 2px solid seashell;
+  }
+
+  #dataMainBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: seashell;
+      font-size: 30px;
+      line-height: 35px;
+  }
+
+
+  #headerMenuBlock {
+    display: flex;
+      flex-direction: row;
+      
+      width: 100%;
+      height: 85px;
+      border: 2px solid seashell;
+  }
+
+
+  #headerTextBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 2px solid seashell; 
+  }
+
+  #headerText {
+      color: seashell;
+      font-size: 35px;
+  }
+
+
+  #mainPhotoBlock {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 455px;
+    border: 2px solid seashell;; 
+  }
+
+  .Pictures {
+      width: 50%;
+  }
+
+  #mainTextBlock {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 205px;
+    border: 2px solid seashell;
+  }
+  
+#formBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    border: 2px solid seashell
+}
+
+#footerBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 170px;
+    border: 2px solid seashell
+}
+
+
+.footerContentBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:200px ;
+    
+}
+
+.footerContentHeader {
+    color:seashell ;
+    font-size: 25px;
+}
+
+.footerContentText {
+    color:seashell ;
+    font-size: 15px;
+}
+
+#hederULBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: seashell;
+    list-style-type: none;
+}
+
+.MenuPoints:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#mainText { 
+    color: seashell;
+    font-size: 33px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+
+}
+
+#taskBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 300px;
+    border: 2px solid seashell;
+    color: seashell;
+    
+}
+
+#taskBlockTextHeader {
+font-size: 45px;
+font-family: 'Amatic SC', cursive;
+}
+
+#taskMainText {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#formHeader{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: seashell;
+    font-weight: 600;
+}
+
+.formQuestion {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: seashell;
+    font-weight: 600;
+}
+
+.formAnswer {
+    margin-left: 10px;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: seashell;
+    font-weight: 300;
+}
+
+#formQuestionBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#weatherQuestion {
+    width: 350px;
+    height: 50px;
+}
+
+#formInputDate {
+    width: 350px;
+}
+
+#formSend {
+    margin-top: 15px;
+}
+
+#formSend:hover {
+    background-color: yellow;
+}
+
+
+
+
+@media(max-width:1700px) {
+    #mainblockContent {
+        width: 60%;
+    }
+}
+
+@media(max-width:1450px) {
+    #mainblockContent {
+        width: 70%;
+    }
+}
+
+@media(max-width:1220px) {
+    #mainblockContent {
+        width: 80%;
+    }
+}
+
+@media(max-width:1060px) {
+    #mainblockContent {
+        width: 90%;
+    }
+}
+
+@media(max-width:950px) {
+    #mainblockContent {
+        width: 95%;
+    }
+
+    #headerText {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width:750px) {
+    #mainblockContent {
+        width: 95%;
+    }
+
+    #headerText {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #mainText {
+        font-size: 23px;
+    }
+
+    #taskMainText {
+        font-size: 23px;
+        margin-left: 20px;
+    }
+
+    #taskBlock {
+        height: 600px;
+    }
+
+    #mainTextBlock {
+        height: 320px;
+    }
+
+    #hederULBlock {
+        flex-direction: column;
+        height: 280px;
+    }
+
+    #headerMenuBlock {
+        height: 280px;
+        line-height: 20px;
+    }
+
+    #mainPhotoBlock {
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 650px;
+    }
+
+    
+
+
+  #footerBlock {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 470px;
+  } 
+  
+  #formBlock {
+      height: 650px;
+  }
+}
+
+
+
+
+ 
+  

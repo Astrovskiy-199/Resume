@@ -835,7 +835,7 @@ height: 100%;
           margin-top: 30px;
       background-color:#f8ffef ;
       width: 80%;
-      height: 650px;
+      height: 700px;
       box-shadow: 0 0 10px #D1E7B3;
       border-radius: 10px; 
     }
@@ -846,7 +846,7 @@ height: 100%;
         align-items: center;
         justify-content: center;
         width: 35%;
-        height: 650px;
+        height: 700px;
         border: 2px solid green;
     }
 
@@ -1629,7 +1629,11 @@ width: 95%;
 
     .eithBlockWithText {
         flex-direction: column;
-        height: 1000px;
+        height: 1200px;
+    }
+
+    .eithBlockWithTextDexcription {
+height: 800px;
     }
 
     .eithBlockWithTextHeader {
@@ -1639,7 +1643,7 @@ width: 95%;
 
     .eithBlockWithTextDexcription {
         width: 95%;
-        height: 300px;
+        height: 500px;
     }
 
     .eleventBlockWithText {
@@ -1825,15 +1829,15 @@ width: 100%;
     }
 
     .tenthMainBlock {
-        height: 1250px;
+        height: 1150px;
     }
 
     .eithBlockWithText {
-        height: 800px;
+        height: 1300px;
     }
 
     .eithBlockWithTextHeader {
-        height: 450px;
+        height: 750px;
     }
 
 
@@ -1933,15 +1937,15 @@ width: 300px;
     }
 
     .eithBlockWithText {
-        height: 900px;
+        height: 1250px;
     }
 
     .eithBlockWithTextDexcription {
-        height: 370px;
+        height: 650px;
     }
 
     .eithBlockWithTextHeader {
-        height: 550px;
+        height: 600px;
     }
 
     .ninthBlockWithPoints {

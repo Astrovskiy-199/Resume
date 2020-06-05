@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="themes/theme1.css" />
+	<link rel="stylesheet" type="text/css" href="wicart.css" />
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" ></script>
+	<!-- WI-JQ-HEADER -->
+	<script src="wicart.js"  type="text/javascript" ></script>
+	<!-- WI-HEADER -->
+</head>
+<body>
+<script>
+var priceList = {
+	"001" : {"id" : "001", "subid" : {}, "name" : "Волшебная палочка Гарри", "price" : "120"},
+    "002" : {"id" : "002", "subid" : {}, "name" : "Музыкальная шкатулка", "price" : "860"},
+    "003" : {"id" : "003", "subid" : {}, "name" : "Совушка Бугля", "price" : "920"},
+    "004" : {"id" : "004", "subid" : {}, "name" : "Философский камушек", "price" : "440"},
+    "005" : {"id" : "005", "subid" : {}, "name" : "Волшебный шарфик", "price" : "-1668"},
+    "006" : {"id" : "006", "subid" : {}, "name" : "Null", "price" : "Nan"},
+    "007" : {"id" : "007", "subid" : {}, "name" : "Волшебный Герб", "price" : "120"},
+    "008" : {"id" : "008", "subid" : {}, "name" : "Очки бедного Гарри", "price" : "120"}
+	};
+</script>
+</head>
+<body>
+    <div id="TheMainBlock">
+        <div id="callMobileMenuBlock"> <div id="mobileMenuButton"> 
+        <div class="mobileMenuButtonBurger"></div>
+        <div class="mobileMenuButtonBurger"></div>
+        <div class="mobileMenuButtonBurger"></div> </div>  </div>
+        <nav id="MainHeaderMenu">
+            <div id="closeMobileMenu"> Закрыть</div>
+            <ul id="MainHeaderMenuButtons"> 
+            <li id="HomePage">Главная </li>
+            <li id="AboutUs">О Нас</li>
+            <li id="Contacts">Контакты</li>
+            <li id="Ourshop">Магазин</li>
+            <div id="cartMainBlock"><div class="cart">
+                    <div class="price"><a href="#" id="basketwidjet" onclick="cart.showWinow('bcontainer', 1)"></a></div>
+                    
+                    <div id="ClearBasketBlock"><a id="basketClear" href="#!" onclick="cart.clearBasket()">Очистить корзину</a></div>
+                    </div></div>
+        </ul> </nav>
+
+
+        <div id="HomeMainBlock"> <h1 class="header"> Добро Пожаловать В Хогвартс! </h1> 
+             <br><div id="mainParagraphTextBlockWelcome"> <p class="mainParagraphText"> Приветствуем вас, в учебном заведении для волшебников! Хогвартс был основан около тысячи лет назад четырьмя волшебниками: колдунами Годриком Гриффиндором (Godric Gryffindor), Салазаром Слизерином (Salazar Slytherin), волшебницами Кандидой Когтевран (Rowena Ravenclaw) и Пенелопой Пуффендуй (Helga Hufflepuff). Целью основателей было обучение и воспитание детей с магическим потенциалом <br> 
+             </p></div> 
+
+             <div class="mainThinksBlock">«Если не спросишь, никогда не узнаешь. Если знаешь, нужно лишь спросить»</div>
+        
+        
+        
+        
+        </div>
+        <div id="AboutUsMainBlock"> <h1 class="header"> Невозможно доказать отсутствие чего-либо. </h1> 
+            <div id="mainParagraphTextBlockAboutUs"> <p class="mainParagraphTextAboutUs"> Хогвартс, вероятно, является единственной школой магии в Великобритании. Обучение начинается в 11 лет и длится 7 лет. В конце каждого года сдаются экзамены, но особенно важны для будущего учеников экзамены в конце 5-го и 7-го года обучения. Количество учеников Хогвартса точно неизвестно, но скорее всего, туда принимаются абсолютно все дети-волшебники из Великобритании.</p> 
+            <img id="imgAboutUsDambl" src="./img/dambldor-small.jpg">  <img id="imgAboutUsGirl" src="./img/about-us-girl-small.jpg"> 
+            
+            </div>
+
+            <div id="MiddleParagraphTextBlockAboutUs"> <img id="imgAboutUsStadium" src="./img/stadium-small.jpg">  <img id="imgAboutUsHall" src="./img/hall-small.jpg">
+                <p id="middleParagraphTextAboutUs">Управляют школой директор и заместитель директора. К моменту начала действия директором школы является Альбус Дамблдор, его заместителем — Минерва Макгонагалл. Директор отчитывается перед Советом Попечителей, состоящим из 12 человек.
+                Обучение в школе бесплатное, но книги и школьный инвентарь учащиеся обычно покупают сами. Однако есть специальный фонд для покупки учебников и школьного инвентаря малоимущим ученикам.</p>
+
+            </div>
+
+            <div id="bottomParagraphTextBlockAboutUs"> <p class="BotoomMainParagraphText">Многочисленные заклинания в школе и вокруг неё делают невозможным для магла найти школу: всё, что может увидеть магл — это развалины и табличка «Keep out». На территории школы, кроме замка, есть горное озеро, большой лес, называемый Запретным из-за живущих там опасных существ (в частности, гигантских пауков (Акромантулов) и кентавров), оранжереи, совятник, избушка лесничего и поле для игры в Квиддич. Замок окружён горами и увешан картинами, персонажи которых ходят друг к другу в гости. Некоторые двери в замке открываются, только если их коснуться в определённом месте, другие — если их вежливо попросить.</p>  <img id="imgAboutUsHallTwo" src="./img/hall-two-small.jpg"> <img id="imgAboutUsforest" src="./img/forest-small.jpg">  </div> 
+
+
+        <img id="imgAboutUsDamblBig" src="./img/dambldor-big.jpg"> 
+        <img id="imgAboutUsGirlBig" src="./img/about-us-girl-big.jpg"> 
+        <img id="imgAboutUsStadiumBig" src="./img/stadium-big.png">   
+        <img id="imgAboutUsHallBig" src="./img/hall-big.jpg">   
+        <img id="imgAboutUsHallTwoBig" src="./img/hall-two-big.jpg">
+        <img id="imgAboutUsforestBig" src="./img/forest-big.png">
+        </div>
+        <div id="ContactUsMainBlock">
+            <img id="ImgOwlContactUs" src="./img/Owl.gif">   
+         
+            <form id="ContactUsForm" action="https://formspree.io/xjvvkron" method="POST">
+               <img src="./img/mem.png" width="100%">
+        </form>
+        
+        
+        </div>
+
+        <!-- SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START SHOP START-->
+        
+
+        <div id="OurShopMainBlock">
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Волшебная палочка Гарри </p> <img src="img/stick.jpg" width="100%" height="auto"> <p class="ItemShopDescription">Цена: 120руб</p> <button class="buyButton" id="wicartbutton_001" onclick="cart.addToCart(this, '001', priceList['001'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Музыкальная шкатулка </p> <img src="img/bos-shop.jpg" width="100%" height="auto"><p class="ItemShopDescription">Цена: 860руб</p> <button class="buyButton" id="wicartbutton_002" onclick="cart.addToCart(this, '002', priceList['002'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Совушка Бугля</p> <img src="img/owl-shop.jpg" width="100%" height="auto"><p class="ItemShopDescription">Цена: 920руб</p> <button class="buyButton" id="wicartbutton_003" onclick="cart.addToCart(this, '003', priceList['003'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> философский камушек </p> <img src="img/philstone.jpg" width="100%" height="auto"><p class="ItemShopDescription">Цена: 440руб</p> <button class="buyButton" id="wicartbutton_004" onclick="cart.addToCart(this, '004', priceList['004'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Волшебный шарфик </p> <img src="img/scarf-shop.jpg" width="100%" height="auto"><p class="ItemShopDescription">Цена: -1668руб</p> <button class="buyButton" id="wicartbutton_005" onclick="cart.addToCart(this, '005', priceList['005'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> {unknown error} </p> <img src="img/stadium-big.png" width="100%" height="auto"> <p class="ItemShopDescription">Цена: 450руб</p> <button class="buyButton" id="wicartbutton_006" onclick="cart.addToCart(this, '006', priceList['006'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Волшебный герб </p> <img src="img/sign-shop.jpg" width="100%" height="auto"><p class="ItemShopDescription">Цена: 120USD</p> <button class="buyButton" id="wicartbutton_007" onclick="cart.addToCart(this, '007', priceList['007'])">КУПИТЬ</button></div>
+            <div class="itemBlockInShop"><p class="ItemShopDescription"> Очки бедного Гарри </p> <img src="img/watches-shop.jpg" width="100%" height="auto"> <p class="ItemShopDescription">Цена: 120руб</p> <button class="buyButton" id="wicartbutton_008" onclick="cart.addToCart(this, '008', priceList['008'])">КУПИТЬ</button></div>
+
+            <!---Форма для магазина-------------------------------->
+<div id="order" class="popup">
+        <a href="#" onclick="cart.closeWindow('order', 0)" style="float:right">[закрыть]</a>
+        <h4>Введите ваши контактные данные</h4>
+        
+        <form id="formToSend">
+        <input id="fio" type="text" placeholder="Ваши фамилия и имя"  class="" />
+        <input id="city" type="text" placeholder="Город"  class="text-input"/>
+        <input id="phone" type="text" placeholder="Контактный телефон" class="text-input"/>
+        <input id="email" type="text" placeholder="Электронная почта" class="" />
+        <br>
+        <textarea id="question" placeholder="Адрес"></textarea>
+        </form>
+        <button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button>
+        </div>
+        <!----------------------------------------------------->
+            
+            
+
+
+        </div> 
+        <footer><p>Hogwarts School of Witchcraft and Wizardry</p> <p>2019</p>  </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+            var cart;
+            var config;
+            var wiNumInputPrefID;
+            /* WI-GLOBAL-VARS */
+            $(document).ready(function(){  
+                cart = new WICard("cart");
+                config = {'clearAfterSend':true, 'showAfterAdd':false};
+                
+                cart.init("basketwidjet", config);
+                /* WI-MODULES */
+                
+                
+            });	
+            document.addEventListener('visibilitychange', function(e) {
+            cart.init("basketwidjet", config);
+            }, false);
+            </script>
+</body>
+</html>

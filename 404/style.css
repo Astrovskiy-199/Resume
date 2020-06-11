@@ -1,0 +1,19 @@
+body {
+        background-image: url('404.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: top;
+            background-position-x: center;
+            background-color: black;
+    }
+    @media (max-width: 500px) {
+        body {
+            background-image: url('404-small.jpg');
+            background-size: 95%;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-position-y: top;
+            background-position-x: center;
+        }
+    }
+ 

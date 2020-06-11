@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@font-face {
+    font-family: 'Amatic SC'; /* Имя шрифта */
+    src: url("../../Fonts/AmaticSC-Regular.otf") format('truetype'); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family: 'Oswald'; /* Имя шрифта */
+    src: url("../../Fonts/Oswald-Regular.otf") format('truetype'); /* Путь к файлу со шрифтом */
+   }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -198,7 +204,8 @@ border-radius: 10px;
 }
 
 .mainHeaderText {
-    
+    width: 100%;
+    margin-left: 20px;
     margin-right: 20px;
     font-size: 65px;
     color: #97c160;
@@ -209,6 +216,7 @@ border-radius: 10px;
 
 
 .WelcomeTextBlock {
+    width: 60%;
     height: 600px;
 display: flex;
 flex-direction: column;
@@ -219,7 +227,9 @@ font-family: 'Oswald', sans-serif;
 }
 
 .WelcomeText {
-font-size: 45px;
+    width: 100%;
+    text-align: center;
+font-size: 50px;
 color: #755b60;
 font-family: 'Oswald', sans-serif;
 }
@@ -239,7 +249,7 @@ font-family: 'Oswald', sans-serif;
 
 
 .applewImg {
-    max-width: 50%;;
+    max-width: 45%;
 }
 
 
@@ -1449,11 +1459,12 @@ margin-bottom: 10px;
         align-items: center;
         justify-content: center;
         margin-top: 75px;
-        height: 850px;
+        height: 1050px;
     }
 
     .WelcomeTextBlock {
         align-items: center;
+        width: 95%;
     }
 
     .mainHeaderText {
@@ -1474,6 +1485,10 @@ margin-bottom: 10px;
 
     .keyPointsBlockMainBlockDescription {
         font-size: 20px;
+    }
+
+    .applewImg {
+        max-width: 65%;;
     }
     
 }

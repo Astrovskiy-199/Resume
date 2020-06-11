@@ -1,0 +1,850 @@
+@font-face {
+    font-family: 'Amatic SC'; /* Имя шрифта */
+    src: url("../../Fonts/AmaticSC-Regular.otf") format('truetype'); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family: 'Oswald'; /* Имя шрифта */
+    src: url("../../Fonts/Oswald-Regular.otf") format('truetype'); /* Путь к файлу со шрифтом */
+   }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+  a {
+    text-decoration: none; 
+    color: #000000 ;
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  
+  #mainBlock {
+      min-height: 100vh;
+      width: 100%;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+
+
+  #loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 110px;
+    height: 100px;
+    position: fixed;
+    background-image: url('../../img/malpa.gif');
+    z-index: 2;
+    top: 45%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes loaderTextFlash {
+  from {
+      color: #755b60;
+  }
+
+  to { 
+      color: #97c160;
+  }
+
+}
+
+#lodaer_text {
+    animation: loaderTextFlash;
+    animation-duration: 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+  font-size: 25px;
+  color: #755b60;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+ 
+
+  
+
+
+
+
+header, nav, ul  {
+margin-top: 10px;
+width: 600px;
+display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.menuButtonsActive {
+    list-style-type: none; 
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    border-bottom: 3px solid #000000;   
+}
+
+.menuButtonsLinkActive {
+    color: #DD0000;
+    border-bottom: 3px solid #DD0000; 
+}
+
+.menuButtonsActive:hover {
+    border-bottom: 3px solid #DD0000; 
+}
+
+.menuButtons {
+    transition: 0.2s;
+    list-style: none;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;   
+
+}
+
+.LanguagesButtonsBlock {
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+width: 90%;
+height: 35px;
+}
+
+.LanguageRussian {
+    margin: 10px;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+background-image: url('../../img/russia.png');
+background-position: center;
+background-size: 115%;
+}
+
+.LanguageBelarusian {
+    margin: 10px;
+    width: 25px;
+height: 25px;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+background-image: url('../../img/Belarus.png');
+background-position: center;
+background-size: 115%;
+}
+
+.LanguageEnglish  {
+    margin: 10px;
+    width: 25px;
+height: 25px;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+background-image: url('../../img/English.png');
+background-position: center;
+background-size: 115%;
+}
+
+.LanguageHover:hover {
+    box-shadow:none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+a:hover {
+    color: #DD0000; 
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.headerTextBlock {
+    margin-top: 35px;
+    width: 80%;
+    height: 550px;
+    background-color: #e8fffc;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #dadada;
+    background-image: url('../img/background.jpg');
+    background-size: 70%;
+    
+
+}
+
+
+
+
+
+
+
+
+footer {
+    margin-bottom: 15px;
+    width: 408px;
+    height: 75px;
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+
+
+#ButtonTop {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    margin-top: 85vh;
+    border-radius: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 38%;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: cornsilk;
+    opacity: 0.5;
+    
+    }
+    .ButtonTopText {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #3a2315;
+    }
+    
+    #ButtonTop:hover {
+        background-color: #97c160;
+        box-shadow: none;
+    }
+/** Social networks **/
+
+.ContactsMail {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 395px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsMail:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+.ContactsVK {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 336px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.ContactsVK:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+.ContactsLinkedin {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 280px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsLinkedin:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+
+.ContactsInstagram {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 224px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsInstagram:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+
+.ContactsTelegram {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 166px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsTelegram:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+
+.ContactsSkype {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 109px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsSkype:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+
+.ContactsPhone {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/sprite_without_hover.png");
+    background-position-x: 52px ;
+    background-position-y: - 3px ;
+    background-size: 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+
+.ContactsPhone:hover {
+    background-image: url("../../img/sprite.png");  
+}
+
+
+.socialLink {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blanchedalmond;
+    
+}
+
+.DownloadResume {
+width: 230px;
+height: 35px;
+background: linear-gradient(to top, #8dd954, #68a83a);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+color:#ffffff;
+font-weight: 900;
+margin-bottom: 10px;
+
+
+}
+
+.DownloadResume:hover {
+    box-shadow: 0 0 0px rgba(0,0,0,0.5);
+}
+
+
+/* Adaptive design */
+
+
+
+
+
+@media(max-width: 1600px) {
+    .mainBlockName {
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 1290px) {
+    .MyName {
+        font-size: 70px;
+    }
+
+    .Profession {
+        font-size: 50px;
+    }
+
+    .WelcomeText {
+        font-size: 35px;
+    }
+
+    header, nav, ul  {
+        width: 550px;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 1200px) {
+    .TypesMainBlock {
+        justify-content: space-around;
+        width: 95%;
+    }
+}
+
+
+@media(max-height:968px) {
+    header, nav, ul   {
+        margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 30px;  
+    }
+
+    .MyName, .Profession, .WelcomeText {
+        text-align: center;
+    } 
+
+   
+} 
+
+@media (max-width: 1150px) {
+    .TypesMainBlock {
+        height: 700px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 550px;
+    }
+
+    .manual,.perfomance {
+        height: 750px;
+    }
+
+    .security,.Postman,.javaScript,.python {
+        height: 450px;
+    }
+
+    .ImgJmeter,.ImgSecurity,.ImgPostman,.ImgJS,.ImgPython {
+        width: 150px;
+        height: 135px; 
+        background-size: 980px;
+    }
+
+    .ImgJmeter {
+        background-position: -150px;
+    }
+
+    .ImgSecurity {
+        background-position: -300px;
+    }
+    .ImgPostman {
+        background-position: -0px;
+    }
+
+    .ImgJS {
+        background-position: -450px;
+    }
+    .ImgPython {
+        background-position: -600px;
+    }
+
+
+
+
+}
+
+@media(max-width: 1050px) {
+.typeOfTesting {
+    width: 350px;
+        text-align: center;
+        font-size: 35px;
+    }
+.manual,.perfomance {
+        height: 900px;
+    }
+.security,.Postman,.javaScript,.python   {
+    height: 450px;
+}    
+
+.perfomance {
+    height: 700px;
+}
+
+    } 
+
+
+
+@media(max-width: 850px) {
+    .serificatsBlockImg {
+flex-direction: column;
+height: 1050px;
+
+    }
+    .serificatsBlock  {
+        height: 1050px;
+    }
+
+   
+}
+
+
+@media(max-width: 750px) { 
+    .typeOfTesting {
+        width: 300px;
+        font-size: 25px;
+}
+}
+
+
+@media(max-width: 675px) {
+    header, nav, ul {
+        flex-direction: column;
+        width: 340px;
+        height: 300px;
+    }
+
+    .typeOfTesting {
+        width: 200px;
+        font-size: 20px;
+    }
+   .TypesMainBlock {
+       justify-content: space-around;
+   }     
+   
+   .blurBlock {
+       margin-top: 450px;
+       width: 200px;
+       height: 200px;
+       background-color: #9cfcce;
+   }
+
+}
+
+@media(max-width: 605px) {
+    .ImgJmeter,.ImgSecurity,.ImgPostman,.ImgJS,.ImgPython {
+        width: 85px;
+        height: 76px; 
+        background-size: 550px;
+    }
+
+    .ImgJmeter {
+        background-position: -84px;
+    }
+
+    .ImgSecurity {
+        background-position: -168px;
+    }
+    .ImgPostman {
+        background-position: -0px;
+    }
+
+    .ImgJS {
+        background-position: -253px;
+    }
+    .ImgPython {
+        background-position: -336px;
+    }
+
+
+
+
+
+
+@media (hover: none) {
+
+}
+
+@media(max-width: 550px) { 
+    .TypesMainBlock {
+flex-direction: column;
+flex-wrap: nowrap;
+width: 280px;
+height: 1750px;
+    }
+
+.manual {
+        height: 2000px;
+        
+    }
+.security,.Postman  {
+    height: 1350px;
+}
+
+.python {
+    height: 750px;
+}
+
+.javaScript {
+    height: 1200px;
+}
+
+.security,.Postman,.javaScript,.python,.manual,.perfomance   {
+    width: 90%;
+    
+} 
+
+.perfomance {
+    height: 1900px;
+}
+
+.ImgQA {
+    margin-left: -20px;
+    margin-top: -70px;
+    width: 110px;
+    height: 110px; 
+    background-size: 760px;
+    background-position-x: -585px ;
+}
+
+.ImgJmeter {
+    margin-left: -10px;
+    margin-top: -45px;
+}
+
+.ImgSecurity {
+    margin-left: -10px;
+    margin-top: -45px;
+}
+.ImgPostman {
+    margin-left: -10px;
+    margin-top: -45px;;
+}
+
+.ImgJS {
+    margin-left: -10px;
+    margin-top: -45px;
+}
+.ImgPython {
+    margin-left: -10px;
+    margin-top: -45px;
+}
+
+}
+   
+#MainCubeAnimationBlock {
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+display: flex;
+transform-style: preserve-3d;
+animation: rotate1;
+animation-timing-function: linear;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+transform: rotateY(60deg);
+
+}
+
+
+
+
+
+    
+
+
+
+
+.TopSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    transition: 2s;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    transform: translateY(-75px) rotateX(90deg);
+   
+    background-position: center;
+    background-size: 100%;
+   
+
+    
+
+}
+
+.RightSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    transition: 2s;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    transform: translateX(75px) rotateY(90deg);
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.BottomSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    transform: translateY(75px) rotateX(90deg);
+    background-color: transparent;
+    transition: 2s;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.LeftSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    background-color: transparent;
+    transition: 2s;
+    transform: translateX(-75px) rotateY(90deg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.BackSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    transform: translateZ(-75px);
+    background-color: transparent;
+    transition: 2s;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.FrontSideOfTheCube {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    position: absolute;
+    transform: translateZ(75px);
+    background-color: transparent;
+    transition: 2s;
+   
+
+    
+}
+
+.cubeText,.cubeTextManual,.cubeTextAutomation,.cubeTextPerfomance{
+    font-size: 25px;
+}
+
+
+
+    .AnimationCubeColorYellow, .AnimationCubeColorGreen,.AnimationCubeColorBlue,.AnimationCubeColorOrange,.AnimationCubeColorRed,.AnimationCubeColorWhite {
+      width: 44px;
+      height: 44px;
+        }
+}
+
+
+
+
+@media (max-width: 410px) {
+    .mainBlockName {
+        width: 90%;
+    }
+    
+    
+    footer {
+        flex-direction: column;
+        height: 500px;
+        width: 200px;
+    }
+}
+
+
+
+
+

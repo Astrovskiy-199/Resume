@@ -232,11 +232,11 @@ font-family: 'Amatic SC', cursive;
 
 
 #ShowArticle {
-    background-color: gray;
+    margin-top: 175px;
+    background-color: #ffede8;
     width: 55%;
     height: 95vh;
     position: absolute;
-    border: 2px solid green;
     overflow: scroll;
     overflow-x: hidden;
     box-shadow: 0 0 25px #373737;
@@ -244,6 +244,27 @@ font-family: 'Amatic SC', cursive;
 
 
 }
+
+.ShowArticleText {
+font-family: 'Oswald';
+margin:25px;
+font-size: 18px;
+font-weight: 100;
+}
+
+.ShowArticleTextList {
+display: flex;
+flex-direction: column;
+list-style-type:disc
+}
+
+
+.ShowArticleTextHeader {
+    font-family: 'Oswald';
+    margin:15px;
+    font-size: 25px;
+}
+
 
 
 

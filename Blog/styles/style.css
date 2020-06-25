@@ -54,7 +54,7 @@ a:hover { color: #DD0000; font-weight: 900; cursor: pointer; }
 
 .ArticleIMG { margin-top: 15px; width: 50%; }
 
-.ShowArticle { display: none; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-top: 15px; margin-bottom: 50px; background-color: #ffede8; width: 55%; height: 85vh; position: absolute; overflow: scroll; overflow-x: hidden; -webkit-box-shadow: 0 0 25px #373737; box-shadow: 0 0 25px #373737; border-radius: 5px; }
+.ShowArticle { display: none; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; top: 15px; margin-bottom: 50px; background-color: #ffede8; width: 55%; height: 85vh; position: absolute; overflow: scroll; overflow-x: hidden; -webkit-box-shadow: 0 0 25px #373737; box-shadow: 0 0 25px #373737; border-radius: 5px; z-index: 1; }
 
 .CloseArticleButtonBlock { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; position: -webkit-sticky; position: sticky; top: 10px; }
 
@@ -148,7 +148,7 @@ footer { margin-bottom: 15px; width: 408px; height: 75px; display: -webkit-box; 
   .blurBlock { margin-top: 450px; width: 200px; height: 200px; background-color: #9cfcce; }
   .ListOfTheArticlesBlock { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 650px; background-repeat: repeat; background-image: url("../img/background-Mobile.jpg"); }
   .ArticlesList { margin: 5px; }
-  .ShowArticle { margin-top: 0px; height: 100vh; }
+  .ShowArticle { margin-top: -0px; height: 100vh; }
   .ShowArticleTextList { height: 1500px; }
   .ArticleIMG { width: 80%; } }
 @media (max-width: 675px) and (max-width: 605px) { .ListOfTheArticlesBlock { background-size: 77%; } }

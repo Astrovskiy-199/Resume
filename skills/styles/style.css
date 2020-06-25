@@ -161,6 +161,14 @@ a:hover { color: #DD0000; font-weight: 900; cursor: pointer; }
 
 .pythonSelenium { width: 99px; height: 99px; background-image: url("../img/python-sprite.jpg"); border-radius: 50%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position-x: -100px; }
 
+.HtmlSass { width: 99px; height: 99px; background-image: url("../img/html-sprite.jpg"); border-radius: 50%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position-x: 2px; }
+
+.Flexbox { width: 99px; height: 99px; background-image: url("../img/html-sprite.jpg"); border-radius: 50%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position-x: -100px; background-size: 448px; }
+
+.htmlGrid { width: 99px; height: 99px; background-image: url("../img/html-sprite.jpg"); border-radius: 50%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position-x: -199px; background-size: 448px; }
+
+.AdaptiveDesign { width: 99px; height: 99px; background-image: url("../img/html-sprite.jpg"); border-radius: 50%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position-x: -299px; background-size: 448px; }
+
 .manual { margin-top: 20px; width: 100%; height: 470px; background-color: #87d6e4; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .TypesMainBlock { margin-top: 100px; width: 80%; height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
@@ -186,6 +194,10 @@ a:hover { color: #DD0000; font-weight: 900; cursor: pointer; }
 .BlockDescription { margin-top: 10px; font-family: 'Oswald', sans-serif; font-size: 15px; text-align: center; color: #3a2315; }
 
 .python { margin-top: 20px; width: 100%; height: 470px; background-color: #ffe873; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.htmlCss { margin-top: 20px; width: 100%; height: 470px; background-color: #26e5cc; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.ImgHtml { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -999px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
 .Postman { margin-top: 20px; width: 100%; height: 470px; background-color: #9853bd; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
@@ -225,17 +237,17 @@ a:hover { color: #DD0000; font-weight: 900; cursor: pointer; }
 
 .ImgBlock { width: 100%; }
 
-.ImgQA { position: absolute; margin-top: -100px; margin-left: 30px; width: 179px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-size: 1306px; background-position-x: -1000px; }
+.ImgQA { position: absolute; margin-top: -100px; margin-left: 30px; width: 179px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-size: 1506px; background-position-x: -1220px; }
 
-.ImgJS { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -600px; background-size: 1306px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+.ImgJS { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -600px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-.ImgPython { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -799px; background-size: 1305px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+.ImgPython { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -799px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-.ImgJmeter { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -200px; background-size: 1305px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+.ImgJmeter { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -200px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-.ImgSecurity { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -400px; background-size: 1306px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+.ImgSecurity { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: -400px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-.ImgPostman { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: 0px; background-size: 1305px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+.ImgPostman { position: absolute; margin-top: -30px; margin-left: 50px; width: 200px; height: 180px; background-image: url(../img/logo-sprite.png); background-repeat: no-repeat; background-position-x: 0px; background-size: 1480px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
 #ShowImageBlock { position: fixed; -webkit-animation: showImg; animation: showImg; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; margin-top: 10vh; display: none; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; width: 90%; max-width: 1200px; max-height: 600px; height: 65vw; z-index: 4; background-size: 100%; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); background-position: center; background-repeat: no-repeat; -webkit-transition: 0.4s; transition: 0.4s; border-radius: 5px; }
 
@@ -306,12 +318,14 @@ footer { margin-bottom: 15px; width: 408px; height: 75px; display: -webkit-box; 
 @media (max-width: 1150px) { .TypesMainBlock { height: 700px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 550px; }
   .manual, .perfomance { height: 750px; }
   .security, .Postman, .javaScript, .python { height: 450px; }
-  .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython { width: 150px; height: 135px; background-size: 980px; }
+  .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython, .ImgHtml { width: 150px; height: 135px; background-size: 1110px; }
+  .ImgHtml { width: 150px; height: 135px; }
   .ImgJmeter { background-position: -150px; }
   .ImgSecurity { background-position: -300px; }
   .ImgPostman { background-position: -0px; }
   .ImgJS { background-position: -450px; }
-  .ImgPython { background-position: -600px; } }
+  .ImgPython { background-position: -599px; }
+  .ImgHtml { background-position: -749px; } }
 @media (max-width: 1050px) { .typeOfTesting { width: 350px; text-align: center; font-size: 35px; }
   .manual, .perfomance { height: 900px; }
   .security, .Postman, .javaScript, .python { height: 450px; }
@@ -323,25 +337,29 @@ footer { margin-bottom: 15px; width: 408px; height: 75px; display: -webkit-box; 
   .typeOfTesting { width: 200px; font-size: 20px; }
   .TypesMainBlock { -ms-flex-pack: distribute; justify-content: space-around; }
   .blurBlock { margin-top: 450px; width: 200px; height: 200px; background-color: #9cfcce; } }
-@media (max-width: 605px) { .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython { width: 85px; height: 76px; background-size: 550px; }
+@media (max-width: 605px) { .ImgJmeter, .ImgSecurity, .ImgPostman, .ImgJS, .ImgPython, .ImgHtml { width: 85px; height: 76px; background-size: 626px; }
+  .ImgHtml { width: 85px; height: 76px; }
   .ImgJmeter { background-position: -84px; }
-  .ImgSecurity { background-position: -168px; }
+  .ImgSecurity { background-position: -169px; }
   .ImgPostman { background-position: -0px; }
   .ImgJS { background-position: -253px; }
-  .ImgPython { background-position: -336px; } }
+  .ImgPython { background-position: -338px; }
+  .ImgHtml { background-position: -422px; } }
 @media (max-width: 605px) and (max-width: 550px) { .TypesMainBlock { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-wrap: nowrap; flex-wrap: nowrap; width: 280px; height: 1750px; }
   .manual { height: 2000px; }
   .security, .Postman { height: 1350px; }
   .python { height: 750px; }
+  .htmlCss { height: 1250px; }
   .javaScript { height: 1200px; }
   .security, .Postman, .javaScript, .python, .manual, .perfomance { width: 90%; }
   .perfomance { height: 1900px; }
-  .ImgQA { margin-left: -20px; margin-top: -70px; width: 110px; height: 110px; background-size: 760px; background-position-x: -585px; }
+  .ImgQA { margin-left: -20px; margin-top: -70px; width: 110px; height: 110px; background-size: 860px; background-position-x: -697px; }
   .ImgJmeter { margin-left: -10px; margin-top: -45px; }
   .ImgSecurity { margin-left: -10px; margin-top: -45px; }
   .ImgPostman { margin-left: -10px; margin-top: -45px; }
   .ImgJS { margin-left: -10px; margin-top: -45px; }
-  .ImgPython { margin-left: -10px; margin-top: -45px; } }
+  .ImgPython { margin-left: -10px; margin-top: -45px; }
+  .ImgHtml { margin-left: 8px; margin-top: -45px; } }
 @media (max-width: 605px) { #MainCubeAnimationBlock { margin-top: 150px; width: 150px; height: 150px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-animation: rotate1; animation: rotate1; -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-duration: 15s; animation-duration: 15s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-direction: alternate; animation-direction: alternate; -webkit-transform: rotateY(60deg); transform: rotateY(60deg); }
   .TopSideOfTheCube { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 150px; height: 150px; background-color: transparent; -webkit-transition: 2s; transition: 2s; -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Параметры тени */ position: absolute; -webkit-transform: translateY(-75px) rotateX(90deg); transform: translateY(-75px) rotateX(90deg); background-position: center; background-size: 100%; }
   .RightSideOfTheCube { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 150px; height: 150px; background-color: transparent; -webkit-transition: 2s; transition: 2s; -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Параметры тени */ position: absolute; -webkit-transform: translateX(75px) rotateY(90deg); transform: translateX(75px) rotateY(90deg); background-position: center; background-size: 100%; }
